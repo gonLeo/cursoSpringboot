@@ -1,6 +1,0 @@
-package com.appsdeveloperblog.app.ws.ui.controller;
-
-@RestController
-public class UserController {
-
-}
