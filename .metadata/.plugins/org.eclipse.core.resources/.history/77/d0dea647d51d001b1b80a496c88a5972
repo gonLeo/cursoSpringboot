@@ -1,0 +1,17 @@
+package com.appsdeveloperblog.app.ws.shared;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Utils {
+	public String generateUserId( int length) {
+		return generateRandomString(length);
+	}
+	
+	private String generateRandomString(int length) {
+		for (int i = 0 ; i < length ; i++) {
+			returnValue.append(ALPHABET.charAt(RANDOM.nextInt(ALPHABET.length())));
+		}
+		return new String(returnValue);
+	}
+}
