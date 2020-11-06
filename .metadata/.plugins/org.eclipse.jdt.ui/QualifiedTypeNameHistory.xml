@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
-    <fullyQualifiedTypeName name="javax.persistence.Column"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
     <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.io.entity.UserEntity"/>
     <fullyQualifiedTypeName name="org.springframework.beans.BeanUtils"/>
     <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.UserRepository"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.security.SecureRandom"/>
     <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.shared.Utils"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.configuration.EnableWebSecurity"/>
     <fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter"/>
     <fullyQualifiedTypeName name="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
@@ -23,7 +19,6 @@
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="org.springframework.security.web.authentication.AuthenticationFilter"/>
     <fullyQualifiedTypeName name="org.springframework.security.web.server.authorization.AuthorizationWebFilter"/>
-    <fullyQualifiedTypeName name="org.springframework.security.config.http.SessionCreationPolicy"/>
     <fullyQualifiedTypeName name="sun.security.util.SecurityConstants"/>
     <fullyQualifiedTypeName name="org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
@@ -42,7 +37,6 @@
     <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.context.ApplicationContextAware"/>
     <fullyQualifiedTypeName name="org.springframework.beans.BeansException"/>
-    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.SpringApplicationContext"/>
     <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.service.UserService"/>
     <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.shared.dto.UserDto"/>
     <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.security.AuthenticationFilter"/>
@@ -60,4 +54,10 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.security.AuthorizationFilter"/>
     <fullyQualifiedTypeName name="org.springframework.security.authentication.AuthenticationManager"/>
+    <fullyQualifiedTypeName name="org.springframework.security.config.http.SessionCreationPolicy"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.core.env.Environment"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.security.AppProperties"/>
+    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.SpringApplicationContext"/>
 </qualifiedTypeNameHistroy>
