@@ -1,7 +1,0 @@
-package com.appsdeveloperblog.app.ws.security;
-
-public class AuthorizationFilter extends BasicAuthenticationFilter{
-	public AuthorizationFilter(AuthenticationManager authManager) {
-		super(authManager);
-	}
-}

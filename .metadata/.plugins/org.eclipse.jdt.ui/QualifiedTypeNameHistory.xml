@@ -1,26 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.UserRepository"/>
-    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="java.security.SecureRandom"/>
-    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.shared.Utils"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
-    <fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.configuration.EnableWebSecurity"/>
-    <fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter"/>
-    <fullyQualifiedTypeName name="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
-    <fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.builders.HttpSecurity"/>
-    <fullyQualifiedTypeName name="org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder"/>
-    <fullyQualifiedTypeName name="org.springframework.http.HttpMethod"/>
-    <fullyQualifiedTypeName name="org.springframework.security.core.userdetails.UserDetailsService"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="org.springframework.security.web.authentication.AuthenticationFilter"/>
-    <fullyQualifiedTypeName name="org.springframework.security.web.server.authorization.AuthorizationWebFilter"/>
-    <fullyQualifiedTypeName name="sun.security.util.SecurityConstants"/>
-    <fullyQualifiedTypeName name="org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.ui.model.request.UserLoginRequestModel"/>
-    <fullyQualifiedTypeName name="org.springframework.security.core.Authentication"/>
     <fullyQualifiedTypeName name="javax.naming.AuthenticationException"/>
     <fullyQualifiedTypeName name="org.springframework.security.core.AuthenticationException"/>
     <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ObjectMapper"/>
@@ -30,7 +9,6 @@
     <fullyQualifiedTypeName name="org.springframework.security.core.userdetails.User"/>
     <fullyQualifiedTypeName name="io.jsonwebtoken.SignatureAlgorithm"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.context.ApplicationContextAware"/>
     <fullyQualifiedTypeName name="org.springframework.beans.BeansException"/>
@@ -48,7 +26,6 @@
     <fullyQualifiedTypeName name="io.jsonwebtoken.Jwts"/>
     <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.security.SecurityConstants"/>
     <fullyQualifiedTypeName name="org.springframework.security.authentication.UsernamePasswordAuthenticationToken"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.security.AuthorizationFilter"/>
     <fullyQualifiedTypeName name="org.springframework.security.authentication.AuthenticationManager"/>
     <fullyQualifiedTypeName name="org.springframework.security.config.http.SessionCreationPolicy"/>
@@ -59,5 +36,28 @@
     <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.security.AppProperties"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
     <fullyQualifiedTypeName name="org.springframework.http.MediaType"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ControllerAdvice"/>
+    <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
+    <fullyQualifiedTypeName name="org.springframework.web.context.request.WebRequest"/>
+    <fullyQualifiedTypeName name="org.springframework.http.HttpHeaders"/>
+    <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ExceptionHandler"/>
+    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.ui.model.response.ErrorMessage"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
     <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.ui.model.response.ErrorMessages"/>
+    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.exceptions.UserServiceException"/>
+    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.ui.model.response.OperationStatusModel"/>
+    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.ui.model.response.RequestOperationName"/>
+    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.ui.model.response.RequestOperationStatus"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.springframework.data.repository.PagingAndSortingRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.data.domain.PageRequest"/>
+    <fullyQualifiedTypeName name="org.springframework.data.domain.Pageable"/>
+    <fullyQualifiedTypeName name="org.springframework.data.domain.Page"/>
 </qualifiedTypeNameHistroy>

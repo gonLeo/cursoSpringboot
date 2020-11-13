@@ -17,7 +17,7 @@ public enum ErrorMessages {
 	}
 	
 	/**
-	 *  @return the errorMessage
+	 * @return the errorMessage
 	 */
 	
 	public String getErrorMessage() {
