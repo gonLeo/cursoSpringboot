@@ -3243,3 +3243,15 @@ Contains: Missing org.springframework.boot:spring-boot-starter-tomcat:jar:source
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-16 13:22:20.716
 !MESSAGE executing callback sts4.classpath.ucfcKhMk SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-16 15:24:21.205
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ucfcKhMk
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-16 15:24:21.205
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ucfcKhMk
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-16 15:24:21.205
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-16 15:24:21.205
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ucfcKhMk => OK

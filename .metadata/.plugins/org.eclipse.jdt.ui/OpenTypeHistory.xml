@@ -2,5 +2,4 @@
 <typeInfoHistroy>
     <typeInfo handle="=mobile-app-ws/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.appsdeveloperblog.app.ws.service{UserService.java[UserService" modifiers="513" timestamp="1605278942358"/>
     <typeInfo handle="=mobile-app-ws/C:\/Program Files \(x86)\/SpringToolSuite4\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932\/jre\/lib\/jrt-fs.jar`java.base=/maven.pomderived=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/14\/docs\/api\/=/&lt;java.io(Serializable.class[Serializable" modifiers="1537" timestamp="1603293036972"/>
-    <typeInfo handle="=mobile-app-ws/C:\/Users\/06010736145\/.m2\/repository\/org\/springframework\/data\/spring-data-commons\/2.3.4.RELEASE\/spring-data-commons-2.3.4.RELEASE.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-commons=/=/maven.version=/2.3.4.RELEASE=/=/maven.scope=/compile=/&lt;org.springframework.data.repository(CrudRepository.class[CrudRepository" modifiers="1537" timestamp="1603374199625"/>
 </typeInfoHistroy>
