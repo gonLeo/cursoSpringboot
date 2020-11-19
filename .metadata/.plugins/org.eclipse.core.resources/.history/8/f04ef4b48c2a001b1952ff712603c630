@@ -56,7 +56,7 @@ public class UserController {
 
 
 		UserDto createdUser = userService.createUser(userDto);
-		modelMapper.map(createdUser, UserRest.class);
+		modelMapper.map(createdUser, returnValue);
 
 		return returnValue;
 	}

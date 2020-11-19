@@ -50,9 +50,11 @@ public class UserServiceImpl implements UserService {
 		userEntity.setEncryptedPassword(bCryptPasswordEncoder.encode(user.getPassword()));
 
 		UserEntity storedUserDetails = userRepository.save(userEntity);
-		
+
+		UserDto returnValue = new UserDto();
 //		BeanUtils.copyProperties(storedUserDetails, returnValue);
-		UserDto returnValue = modelMapper.map(storedUserDetails, UserDto.class); 
+		UserEntity userEntity = modelMapper.map(user, UserEntity.class);
+		UserEntity userEntity = modelMapper.map(storedUserDetails, UserDto.class); 
 
 		return returnValue;
 	}
