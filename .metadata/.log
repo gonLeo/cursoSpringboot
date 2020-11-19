@@ -6045,3 +6045,15 @@ Binding(CTRL+R,
 
 !ENTRY org.eclipse.ui 2 2 2020-11-19 10:55:48.246
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-19 13:58:24.935
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.GXanboMF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-19 13:58:24.936
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.GXanboMF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-19 13:58:24.936
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-19 13:58:24.936
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.GXanboMF => OK

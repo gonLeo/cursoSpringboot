@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.sun.org.apache.xml.internal.security.algorithms.SignatureAlgorithm"/>
-    <fullyQualifiedTypeName name="org.springframework.web.util.ServletContextPropertyUtils"/>
-    <fullyQualifiedTypeName name="org.springframework.security.core.userdetails.User"/>
-    <fullyQualifiedTypeName name="io.jsonwebtoken.SignatureAlgorithm"/>
-    <fullyQualifiedTypeName name="java.sql.Date"/>
-    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
-    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContextAware"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.BeansException"/>
-    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.service.UserService"/>
-    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.shared.dto.UserDto"/>
-    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.security.AuthenticationFilter"/>
-    <fullyQualifiedTypeName name="org.springframework.security.web.authentication.www.BasicAuthenticationFilter"/>
-    <fullyQualifiedTypeName name="javax.servlet.FilterChain"/>
     <fullyQualifiedTypeName name="org.springframework.security.core.context.ReactiveSecurityContextHolder"/>
     <fullyQualifiedTypeName name="org.springframework.security.core.context.SecurityContextHolder"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
@@ -58,6 +45,19 @@
     <fullyQualifiedTypeName name="org.springframework.boot.web.servlet.support.SpringBootServletInitializer"/>
     <fullyQualifiedTypeName name="org.springframework.boot.builder.SpringApplicationBuilder"/>
     <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.MobileAppWsApplication"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.modelmapper.ModelMapper"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+    <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+    <fullyQualifiedTypeName name="org.springframework.security.core.userdetails.UserDetails"/>
+    <fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.ui.model.response.UserRest"/>
+    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.io.entity.UserEntity"/>
+    <fullyQualifiedTypeName name="org.apache.tomcat.jni.Address"/>
+    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.shared.dto.AddressDTO"/>
 </qualifiedTypeNameHistroy>
