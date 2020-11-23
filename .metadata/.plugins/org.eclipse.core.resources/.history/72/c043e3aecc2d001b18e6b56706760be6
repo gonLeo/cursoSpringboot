@@ -3,7 +3,6 @@ package com.appsdeveloperblog.app.ws.service.impl;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.appsdeveloperblog.app.ws.io.entity.AddressEntity;
@@ -23,16 +22,12 @@ public class AddressServiceImpl implements AddressService {
 	@Override
 	public List<AddressDTO> getAddresses(String userId) {
 		List<AddressDTO> returnValue = new ArrayList<>();
-		ModelMapper modelMapper = new ModelMapper();
 		
 		
 		UserEntity userEntity = userRepository.findByUserId(userId);			
 		if (userEntity==null) return returnValue;
 		
 		Iterable<AddressEntity> addresses = addressRepository.findAllByUserDetails(userEntity);
-		for (AddressEntity addressEntity:addresses) {
-			returnValue.add(modelMapper.map(addressEntity, AddressDTO.class)); 
-		}
 		
 		
 		return returnValue;
