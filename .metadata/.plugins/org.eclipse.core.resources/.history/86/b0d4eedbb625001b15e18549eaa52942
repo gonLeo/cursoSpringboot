@@ -1,7 +1,0 @@
-package com.appsdeveloperblog.app.ws.ui.model.response;
-
-private class OperationStatusModel {
-	private String operationResult;
-	private String operationName;
-}
- 

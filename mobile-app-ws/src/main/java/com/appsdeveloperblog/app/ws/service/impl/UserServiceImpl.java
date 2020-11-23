@@ -108,7 +108,7 @@ public class UserServiceImpl implements UserService {
 		if (userEntity == null)
 			throw new UserServiceException(ErrorMessages.NO_RECORD_FOUND.getErrorMessage());
 
-		userEntity.setFirstName(user.getfirstName());
+		userEntity.setFirstName(user.getFirstName());
 		userEntity.setLastName(user.getLastName());
 
 		UserEntity updatedUserDetails = userRepository.save(userEntity);

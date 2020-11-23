@@ -5,15 +5,6 @@ public class AddressDTO {
 	private String addressId;
 	private String city;
 	private String country;
-
-	public String getAddressId() {
-		return addressId;
-	}
-
-	public void setAddressId(String addressId) {
-		this.addressId = addressId;
-	}
-
 	private String streetName;
 	private String postalCode;
 	private String type;
@@ -25,6 +16,14 @@ public class AddressDTO {
 
 	public void setId(long id) {
 		this.id = id;
+	}
+
+	public String getAddressId() {
+		return addressId;
+	}
+
+	public void setAddressId(String addressId) {
+		this.addressId = addressId;
 	}
 
 	public String getCity() {
