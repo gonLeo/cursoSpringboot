@@ -4500,3 +4500,5 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2020-11-26 09:14:15,752 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-11-26 09:14:15,754 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2020-11-26 09:14:15,755 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-26 09:14:15,758 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-26 09:14:15,758 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\06010736145\Documents\curso spring boot\mobile-app-ws\src\test\resources
