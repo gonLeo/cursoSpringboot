@@ -131,7 +131,7 @@ public class UserController {
 		return returnValue;
 	}
 
-	@GetMapping(path = "/{userId}/addresses/{addressId}", produces = { MediaType.APPLICATION_XML_VALUE,
+	@GetMapping(path = "/{id}/addresses/{addressId}", produces = { MediaType.APPLICATION_XML_VALUE,
 			MediaType.APPLICATION_JSON_VALUE })
 	public AddressesRest getUserAddress(@PathVariable String addressId) {
 
