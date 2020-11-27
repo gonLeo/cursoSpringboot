@@ -1,5 +1,7 @@
 package com.appsdeveloperblog.app.ws.ui.model.response;
 
+import org.springframework.hateoas.RepresentationModel;
+
 public class AddressesRest {
 	private String addressId;
 	private String city;

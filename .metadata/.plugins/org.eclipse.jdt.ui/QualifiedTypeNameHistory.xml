@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.security.authentication.UsernamePasswordAuthenticationToken"/>
-    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.security.AuthorizationFilter"/>
-    <fullyQualifiedTypeName name="org.springframework.security.authentication.AuthenticationManager"/>
-    <fullyQualifiedTypeName name="org.springframework.security.config.http.SessionCreationPolicy"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
     <fullyQualifiedTypeName name="org.springframework.core.env.Environment"/>
     <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.SpringApplicationContext"/>
@@ -57,7 +53,11 @@
     <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.io.entity.UserEntity"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
-    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.ui.model.response.AddressesRest"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.shared.dto.AddressDTO"/>
+    <fullyQualifiedTypeName name="org.springframework.hateoas.RepresentationModel"/>
+    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.ui.model.response.AddressesRest"/>
+    <fullyQualifiedTypeName name="org.springframework.hateoas.server.mvc.WebMvcLinkBuilder"/>
+    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.ui.controller.UserController"/>
+    <fullyQualifiedTypeName name="org.springframework.hateoas.Link"/>
 </qualifiedTypeNameHistroy>
