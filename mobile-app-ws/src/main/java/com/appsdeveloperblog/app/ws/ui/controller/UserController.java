@@ -129,8 +129,15 @@ public class UserController {
 			java.lang.reflect.Type listType = new TypeToken<List<AddressesRest>>() {
 			}.getType();
 			returnValue = new ModelMapper().map(addressesDTO, listType);
+
+			for (AddressesRest addressRest : returnValue) {
+				Link selfLink = WebMvcLinkBuilder.linkTo(
+						WebMvcLinkBuilder.methodOn(UserController.class).getUserAddress(id, addressRest.getAddressId()))
+						.withSelfRel();
+				addressRest.add(selfLink);
+			}
 		}
-		
+
 		Link userLink = WebMvcLinkBuilder.linkTo(UserController.class).slash(id).withRel("user");
 		Link selfLink = WebMvcLinkBuilder.linkTo(WebMvcLinkBuilder.methodOn(UserController.class).getUserAddresses(id))
 				.withSelfRel();
@@ -146,23 +153,36 @@ public class UserController {
 
 		ModelMapper modelMapper = new ModelMapper();
 		AddressesRest returnValue = modelMapper.map(addressesDto, AddressesRest.class);
-		
+
 		// http://localhost:8080/users/<userId>/addresses/{addressId}
 		Link userLink = WebMvcLinkBuilder.linkTo(UserController.class).slash(userId).withRel("user");
-		Link userAddressesLink = WebMvcLinkBuilder.linkTo(WebMvcLinkBuilder.methodOn(UserController.class).getUserAddresses(userId))
-				.withRel("addresses");
-				//.slash(userId)
-				//.slash("addresses")
-				
-		Link selfLink = WebMvcLinkBuilder.linkTo(WebMvcLinkBuilder.methodOn(UserController.class).getUserAddress(userId, addressId))
-				.withSelfRel();
-				//.slash(userId)
-				//.slash("addresses")
-				//.slash(addressId)
-				
-		
+		Link userAddressesLink = WebMvcLinkBuilder
+				.linkTo(WebMvcLinkBuilder.methodOn(UserController.class).getUserAddresses(userId)).withRel("addresses");
 
-		return EntityModel.of(returnValue, Arrays.asList(userLink, userAddressesLink, selfLink));		
+		Link selfLink = WebMvcLinkBuilder
+				.linkTo(WebMvcLinkBuilder.methodOn(UserController.class).getUserAddress(userId, addressId))
+				.withSelfRel();
+
+		return EntityModel.of(returnValue, Arrays.asList(userLink, userAddressesLink, selfLink));
+	}
+
+	// http://localhost:8080/mobile-app-ws/users/email-verification?token=sdhags
+	@GetMapping(path = "/email-verification", produces = { MediaType.APPLICATION_XML_VALUE,
+			MediaType.APPLICATION_JSON_VALUE })
+	public OperationStatusModel verifyEmailToken(@RequestParam(value = "token") String token) {
+		
+		OperationStatusModel returnValue = new OperationStatusModel();
+		returnValue.setOperationName(RequestOperationName.VERIFY_EMAIL.name());
+		
+		boolean isVerified = userService.verifyEmailToken(token);
+		
+		if(isVerified) {
+			returnValue.setOperationResult(RequestOperationStatus.SUCCESS.name());
+		}else {
+			returnValue.setOperationResult(RequestOperationStatus.ERROR.name());
+		}
+		
+		return returnValue;
 	}
 
 }

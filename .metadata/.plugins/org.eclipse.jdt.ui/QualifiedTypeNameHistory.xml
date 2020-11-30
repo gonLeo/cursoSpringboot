@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
-    <fullyQualifiedTypeName name="org.springframework.core.env.Environment"/>
-    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.SpringApplicationContext"/>
-    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.security.AppProperties"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
-    <fullyQualifiedTypeName name="org.springframework.http.MediaType"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ControllerAdvice"/>
     <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
@@ -14,15 +8,12 @@
     <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ExceptionHandler"/>
     <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.ui.model.response.ErrorMessage"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
     <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.ui.model.response.ErrorMessages"/>
     <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.exceptions.UserServiceException"/>
     <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.ui.model.response.OperationStatusModel"/>
-    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.ui.model.response.RequestOperationName"/>
-    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.ui.model.response.RequestOperationStatus"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
     <fullyQualifiedTypeName name="org.springframework.data.repository.PagingAndSortingRepository"/>
     <fullyQualifiedTypeName name="org.springframework.data.domain.PageRequest"/>
@@ -56,8 +47,17 @@
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.shared.dto.AddressDTO"/>
     <fullyQualifiedTypeName name="org.springframework.hateoas.RepresentationModel"/>
-    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.ui.model.response.AddressesRest"/>
     <fullyQualifiedTypeName name="org.springframework.hateoas.server.mvc.WebMvcLinkBuilder"/>
     <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.ui.controller.UserController"/>
     <fullyQualifiedTypeName name="org.springframework.hateoas.Link"/>
+    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.ui.model.response.AddressesRest"/>
+    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.ui.model.response.RequestOperationName"/>
+    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.ui.model.response.RequestOperationStatus"/>
+    <fullyQualifiedTypeName name="io.jsonwebtoken.Jwts"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="io.jsonwebtoken.Claims"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="io.jsonwebtoken.SignatureAlgorithm"/>
+    <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.security.SecurityConstants"/>
+    <fullyQualifiedTypeName name="org.springframework.security.core.userdetails.User"/>
 </qualifiedTypeNameHistroy>
