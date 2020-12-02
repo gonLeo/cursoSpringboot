@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" charset="ISO-8859-1">
+<title>E-mail Verification Service</title>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+	$(document)
+			.ready(
+					function() {
+						var urlParams = new URLSearchParams(location.search);
+						if (urlParams.has("token")) {
+							verifyToken(urlParams.get("token"));
+						}
+						function verifyToken(tokenValue) {
+							$
+									.get(
+											'http://localhost:8080/mobile-app-ws/users/email-verification',
+											{
+												token : tokenValue
+											})
+									.done(
+											function(response) {
+												if (response["operationResult"] === "SUCCESS") {
+													$("#not-successful-result")
+															.attr("style",
+																	"display: none ! important;background-color:#696969;opacity: 0.5;");
+													$("#successful-result")
+															.attr("style",
+																	"display: block ! important;background-color:#696969;opacity: 0.5;");
+												} else {
+													$("#successful-result")
+															.attr("style",
+																	"display: none ! important;background-color:#696969;opacity: 0.5;");
+													$("#not-successful-result")
+															.attr("style",
+																	"display: block ! important;background-color:#696969;opacity: 0.5;");
+												}
+											});
+						}
+					});
+</script>
+</head>
+<body>
+	<h1>Verification email status</h1>
+	<div id="successful-result" style="display: none">
+		<h3 style="color: #006000;">Successful Verification</h3>
+	</div>
+	<div id="not-successful-result" style="display: none">
+		<h3 style="color: red;">Verification link has expired</h3>
+	</div>
+</body>
+</html>
